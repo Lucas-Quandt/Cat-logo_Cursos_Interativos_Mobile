@@ -1,0 +1,72 @@
+// Arquivo: src/data/cursos.js
+
+export const CATEGORIAS = [
+  'Todos',
+  'Mobile',
+  'Back-end',
+  'Dados',
+  'Infraestrutura',
+];
+
+export const LISTA_CURSOS = [
+  {
+    id: '1',
+    titulo: 'React Native com Expo na Prática',
+    categoria: 'Mobile',
+    nivel: 'Intermediário',
+    cargaHoraria: '40h',
+    instrutor: 'Ana Beatriz',
+    vagas: 15,
+    descricao: 'Desenvolva aplicativos móveis multiplataforma utilizando componentização, hooks e navegação.',
+  },
+  {
+    id: '2',
+    titulo: 'APIs RESTful com Node.js e Express',
+    categoria: 'Back-end',
+    nivel: 'Iniciante',
+    cargaHoraria: '32h',
+    instrutor: 'Carlos Eduardo',
+    vagas: 20,
+    descricao: 'Construa servidores escaláveis com autenticação JWT, validação de dados e integração com PostgreSQL.',
+  },
+  {
+    id: '3',
+    titulo: 'Análise de Dados com Python e Pandas',
+    categoria: 'Dados',
+    nivel: 'Iniciante',
+    cargaHoraria: '36h',
+    instrutor: 'Mariana Costa',
+    vagas: 12,
+    descricao: 'Domine a limpeza, transformação e visualização de grandes volumes de dados para tomada de decisão.',
+  },
+  {
+    id: '4',
+    titulo: 'Docker e Kubernetes para Produção',
+    categoria: 'Infraestrutura',
+    nivel: 'Avançado',
+    cargaHoraria: '48h',
+    instrutor: 'Lucas Fernandes',
+    vagas: 10,
+    descricao: 'Containerize aplicações e orquestre clusters em nuvem com alta disponibilidade e pipelines CI/CD.',
+  },
+  {
+    id: '5',
+    titulo: 'Animações e Gestos no React Native',
+    categoria: 'Mobile',
+    nivel: 'Avançado',
+    cargaHoraria: '24h',
+    instrutor: 'Ana Beatriz',
+    vagas: 8,
+    descricao: 'Crie interfaces fluidas a 60fps e experiências interativas modernas para Android e iOS.',
+  },
+  {
+    id: '6',
+    titulo: 'Modelagem SQL e Tuning de Banco de Dados',
+    categoria: 'Dados',
+    nivel: 'Intermediário',
+    cargaHoraria: '28h',
+    instrutor: 'Roberto Almeida',
+    vagas: 18,
+    descricao: 'Projete esquemas relacionais eficientes e otimize consultas complexas com índices e planos de execução.',
+  },
+];

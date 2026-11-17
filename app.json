@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "01-pratica-guiada-componentes",
+    "slug": "01-pratica-guiada-componentes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
